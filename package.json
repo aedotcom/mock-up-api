@@ -2,11 +2,6 @@
   "name": "mock-data-api-nextjs",
   "version": "1.3.0",
   "private": false,
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
-  "license": "ISC",
-  "author": "",
-  "type": "module",
-  "main": "next-env.d.js",
   "scripts": {
     "dev": "next dev -p 3010",
     "build": "next build",

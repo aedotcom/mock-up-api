@@ -1,3 +1,5 @@
+// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/extensions
 import { bulls } from 'data/bullsinfo';
 import cors from 'utils/cors';
 

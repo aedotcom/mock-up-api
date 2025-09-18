@@ -1,21 +1,10 @@
-import { add, sub } from 'date-fns';
+// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/extensions
 import { Chance } from 'chance';
 
 const chance = new Chance();
 
 export const bulls = [
-  // { id:1,
-  //   jm_jmregno:'023252208509',ocapa_date:'2025-04-01',ocapa_tpi:3038,ocapa_wregno:3252208509  ,ocapa_wnation:'02',ocapa_ckind:2,jm_semencode:'29HO00945 ',ocapa_ptam:690,ocapa_ptaf:46,ocapa_birthday:'2024-02-19',ocapa_ptafr:0.06,ocapa_olage:null,ocapa_ptap:28,ocapa_olpnt:null,ocapa_ptapf:0.02,ocapa_abl:79,ocapa_ccno:null,ocapa_ccgno:null,ocapa_ccmilk:null,ocapa_ccf:null,ocapa_ccspno:null,ocapa_ccspm:null,ocapa_ptatolpnt:0.76,ocapa_ccspf:null,ocapa_olrate:77,ocapa_ud:1.02,ocapa_stature:0.3,ocapa_strength:0.06,ocapa_bodydepth:-0.01,ocapa_angularity:0.6,ocapa_rump_angle:0.84,ocapa_rump_width:0.72,ocapa_sveleg:1.23,ocapa_eveleg:-0.64,ocapa_footangle:-0.24,ocapa_ore_attach:1.51,ocapa_rear_high:1.37,ocapa_support:-0.66,ocapa_rear_width:1.24,ocapa_ud_depth:1.12,ocapa_ud_vire:0.47,ocapa_ud_length:-0.58,ocapa_ud_balence:null,ocapa_makercode:44        ,ocapa_scc:2.86,ocapa_jijejisu:-0.3,ocapa_nansan:2,ocapa_chakyou:null,ocapa_new:'Y',h_short:'아타리                        ',e_short:'ATARI                         ',ocapa_icajmregno:null,ocapa_rt_placement:-0.29,ocapa_ud_texture:null,ocapa_heel_depth:null,ocapa_bone_qlty:null,ocapa_front_height:null,ocapa_loin_st:null,ocapa_m_calving_ease:2,ocapa_prod_life:4.4,ocapa_dtr_pgrate:0.9,ocapa_sire_stillbirth:5.6,ocapa_dtr_stillbirth:4.1,ocapa_lac_persis:null,ocapa_milking_temp:null,ocapa_bk:'A2A2'
-  // },
-  // { id:2,
-  //   jm_jmregno:'023252208510',ocapa_date:'2025-04-01',ocapa_tpi:3038,ocapa_wregno:3252208509  ,ocapa_wnation:'02',ocapa_ckind:2,jm_semencode:'29HO00945 ',ocapa_ptam:690,ocapa_ptaf:46,ocapa_birthday:'2024-02-19',ocapa_ptafr:0.06,ocapa_olage:null,ocapa_ptap:28,ocapa_olpnt:null,ocapa_ptapf:0.02,ocapa_abl:79,ocapa_ccno:null,ocapa_ccgno:null,ocapa_ccmilk:null,ocapa_ccf:null,ocapa_ccspno:null,ocapa_ccspm:null,ocapa_ptatolpnt:0.76,ocapa_ccspf:null,ocapa_olrate:77,ocapa_ud:1.02,ocapa_stature:0.3,ocapa_strength:0.06,ocapa_bodydepth:-0.01,ocapa_angularity:0.6,ocapa_rump_angle:0.84,ocapa_rump_width:0.72,ocapa_sveleg:1.23,ocapa_eveleg:-0.64,ocapa_footangle:-0.24,ocapa_ore_attach:1.51,ocapa_rear_high:1.37,ocapa_support:-0.66,ocapa_rear_width:1.24,ocapa_ud_depth:1.12,ocapa_ud_vire:0.47,ocapa_ud_length:-0.58,ocapa_ud_balence:null,ocapa_makercode:44        ,ocapa_scc:2.86,ocapa_jijejisu:-0.3,ocapa_nansan:2,ocapa_chakyou:null,ocapa_new:'Y',h_short:'아타리                        ',e_short:'ATARI                         ',ocapa_icajmregno:null,ocapa_rt_placement:-0.29,ocapa_ud_texture:null,ocapa_heel_depth:null,ocapa_bone_qlty:null,ocapa_front_height:null,ocapa_loin_st:null,ocapa_m_calving_ease:2,ocapa_prod_life:4.4,ocapa_dtr_pgrate:0.9,ocapa_sire_stillbirth:5.6,ocapa_dtr_stillbirth:4.1,ocapa_lac_persis:null,ocapa_milking_temp:null,ocapa_bk:'A2A2'
-  // },
-    // { id:1,
-    //   jm_jmregno:'023252208509',ocapa_date:'2025-04-01' 
-    // },
-    // { id:2,
-    //   jm_jmregno:'023252208510',ocapa_date:'2025-04-01'    
-    // },
   {
     id: 1,
     jm_jmregno: '23252208509',
@@ -83,7 +72,7 @@ export const bulls = [
     ocapa_dtr_stillbirth: '4.1',
     ocapa_lac_persis: '',
     ocapa_milking_temp: '',
-    ocapa_bk: 'A2A2',
+    ocapa_bk: 'A2A2'
   },
   {
     id: 2,
@@ -152,6 +141,6 @@ export const bulls = [
     ocapa_dtr_stillbirth: '3.9',
     ocapa_lac_persis: '',
     ocapa_milking_temp: '',
-    ocapa_bk: 'A2A2',
-  },
+    ocapa_bk: 'A2A2'
+  }
 ];
