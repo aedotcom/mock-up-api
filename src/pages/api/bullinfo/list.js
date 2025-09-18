@@ -1,4 +1,4 @@
-import {bulls} from 'data/bullsinfo';
+import { bulls } from 'data/bullsinfo';
 import cors from 'utils/cors';
 
 export default async function handler(req, res) {
